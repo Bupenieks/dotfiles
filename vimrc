@@ -6,6 +6,10 @@ filetype plugin indent on
 
 :colo sol-term
 
+setlocal spell
+set spelllang=en_gb
+inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
+
 " vimtex config
 let g:tex_flavor='latex'
 let g:vimtex_view_method='skim'
