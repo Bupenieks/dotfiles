@@ -10,3 +10,6 @@
 [submodule "bundle/vim-sol"]
 	path = bundle/vim-sol
 	url = https://github.com/notpratheek/vim-sol.git
+[submodule "bundle/vim-snippets"]
+	path = bundle/vim-snippets
+	url = https://github.com/Bupenieks/vim-snippets.git
